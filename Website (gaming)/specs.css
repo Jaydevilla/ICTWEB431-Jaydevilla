@@ -1,0 +1,214 @@
+/*Hero image and nav start here*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main-hero{
+    min-height: 100vh;
+    background: url(Images/best\ hero\ image.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.3rem 12%;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.089);
+}
+
+.logo{
+    font-size: 3rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+
+.navbar a{
+    font-size: 1.15rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2.5rem;
+  
+}
+
+.navbar .play{
+    
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #0E0297;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#check{
+    display: none;
+}
+
+.icons{
+    position: absolute;
+    right: 5%;
+    font-size: 2.8rem;
+    color: #000000;
+    cursor: pointer;
+    display: none;
+}
+
+.main-text{
+    padding-top: 320px;
+    float: right;
+    padding-right: 15%;
+    padding-left: 50%;
+}
+
+
+.button-link {
+    background-color: #0E0297;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    float: right;
+
+  }
+
+  .head-text{
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 5px 3px rgba(0, 0, 0, 0.562);
+  }
+
+
+
+
+/*Hero image and nav finish here*/
+
+.table-container{
+    margin-top: 6%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color:  #9B96D8;
+    height: 1900px;
+
+}
+
+.table-container h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-bottom: 4%;
+    color: white;
+    font-size: 95px;
+    font-weight: bold;
+}
+
+
+.table-container h3{
+   color: white;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid white;
+    margin-bottom: 3%;
+  }
+
+table{
+    width: 100%;
+}
+
+th{
+    font-size: 25px;
+
+}
+th, td{
+    padding: 15px;
+    color: white
+}
+
+td{
+    text-align: center;
+}
+
+
+
+/*Footer start here*/
+
+footer{
+    background-color: #876e53;
+   
+  }
+  
+  .footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+  }
+  
+  .footernav{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5%;
+  
+  }
+  
+  .footernav a{
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+   
+  }
+  
+  
+  .footerbottom{
+    text-align: center;
+    background-color: #755b3f7b;
+    padding: 2%;
+    color: white;
+  }
+  
+  .socialicon{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .socialicon a i{
+    font-size: 3em;
+    color: #6d482ec0;
+    opacity: 0.9;
+  }
+  
+  /*footer ends here*/

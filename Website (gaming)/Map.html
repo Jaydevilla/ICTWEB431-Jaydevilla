@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Genshin Impact</title>
+    <link rel="stylesheet" href="Map.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+
+<body>
+    <header class="header">
+        <a href="Game.html" class="logo">Genshin Impact</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="Game.html">Home</a>
+            <a href="Game.html#details">Game Detail</a>
+            <a href="specs.html">Specification</a>
+            <a class="play" href="#" >Play Now !</a>
+        </nav>
+    </header>
+
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+         
+          <img src="Images/monstadt.jpg" alt="a place looking like a germany" style="width:100%">
+          <div class="text">Mondstadt</div>
+        </div>
+        
+        <div class="mySlides fade">
+        
+          <img src="Images/liyue.jpg" alt="a place looking like a china town with the big bridge" style="width:100%">
+          <div class="text">Liyue</div>
+        </div>
+        
+        <div class="mySlides fade">
+        
+          <img src="Images/inazuma.jpg" alt="a place looking like a japan" style="width:100%">
+          <div class="text">Inazuma</div>
+        </div>
+
+        <div class="mySlides fade">
+      
+            <img src="Images/Sumeru.jpg" alt="a place looking like more nature" style="width:100%">
+            <div class="text">Sumeru</div>
+          </div>
+
+          <div class="mySlides fade">
+
+            <img src="Images/fontain.jpg" alt="a place looking like more high tech" style="width:100%">
+            <div class="text">Fontaine</div>
+          </div>
+
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+  
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+</body>
+
+
+
+
+</html>
