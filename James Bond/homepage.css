@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+.main-hero{
+    min-height: 100vh;
+    background: url(Images/best\ hero\ image.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.3rem 12%;
+    background: #090909;
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.089);
+}
+
+.logo{
+    font-size: 5rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+
+.navbar a{
+    font-size: 1.15rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2.5rem;
+  
+}
+
+.navbar .play{
+    
+    font-weight: bolder;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#check{
+    display: none;
+}
+
+.icons{
+    position: absolute;
+    right: 5%;
+    font-size: 2.8rem;
+    color: #000000;
+    cursor: pointer;
+    display: none;
+}
+
+.main-text{
+    padding-top: 320px;
+    float: right;
+    padding-right: 15%;
+    padding-left: 50%;
+}
+
+
+
+
+  .head-text{
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 5px 3px rgba(0, 0, 0, 0.562);
+  }
+
+
+
+
+
+
+  .hero_image{
+    margin-top: 15%;
+  }
+
+  .head-words{
+    float: right;
+    margin-top: 5%;
+    margin-right: 15%;
+  }
+
+  
+.heading-details{
+    color: #000000;
+    font-size: 120px;
+    font-weight: bolder;
+    
+}
+
+.image{
+   margin-left: 17%;
+   height: auto;
+   width: 500px;
+}
+
+.descip{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.button-link {
+    font-size: 19px;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    font-weight: bolder;
+
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+
+/*hero image ends here8*/
+
+
+/* about start here */
+
+.about{
+    background-color: #575656;
+    width: auto;
+    height: 100vh;
+    background-image: url(Images/who-is-james-bond.png) ;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 70px;
+    padding: 20%;
+    
+
+}
+
+.head{
+    text-shadow: 5px 3px rgba(0, 0, 0, 0.562);
+}
+
+.button-link2{
+    font-size: 19px;
+    background-color: #f8f8f8;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-weight: bolder;
+}
+
+
+/* about ends here */
+
+/* Movies start here8*/
+
+
+
+
+.vision{
+    height: auto;
+    width: 600px;
+    margin-right: 3%;
+    float: left;
+    margin-right: 5%;
+  }
+  
+
+
+  .elements{
+    font-size: 20px;
+    padding: 12%;
+
+
+  
+  }
+
+  
+  .button_link{
+    margin-top: 3%;
+    float: left;
+    font-weight: bolder;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 19px;
+    
+  }
+  
+  .heading-details2{
+    color: #000000;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 3%;
+    padding-top: 10%;
+
+    
+}
+
+  a{
+    text-decoration: none;
+    color: white;
+    
+  }
+
+
+  
+
+.elements2{
+    font-size: 20px;
+    padding: 12%;
+    background-color: #575656;
+
+  
+  }
+  
+
+  .vision2{
+    float: left;
+}
+
+/* vilians */
+
+
+.vision3{
+    height: auto;
+    width: 650px;
+    margin-right: 3%;
+    float: right;
+    margin-right: 5%;
+  }
+  
+
+
+  .elements3{
+    font-size: 20px;
+    padding-left: 19%;
+    padding-right: 12%;
+    padding-top: 5%;
+    background-color: #575656;
+    width: auto;
+    height: 100vh;
+    margin-top: 3%;
+
+  
+  }
+
+  .descri3{
+    color: #ffffff;
+  }
+
+  
+  .button_link3{
+    margin-top: 3%;
+    float: left;
+    font-weight: bolder;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 19px;
+    
+  }
+  
+  .heading-details3{
+    color: #f3f1f1;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 3%;
+    padding-top: 10%;
+
+    
+}
+
+  .button_link3 a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    
+  }
+
+
+
+  /* footer*/
+
+  footer{
+    background-color: #31302e;
+    
+  }
+  
+  .footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    margin-top: 5%;
+  }
+  
+  .footernav{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5%;
+  
+  }
+  
+  .footernav a{
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+   
+  }
+  
+  
+  .footerbottom{
+    text-align: center;
+    background-color: #0000007b;
+    padding: 2%;
+    color: white;
+  }
+  
+  .socialicon{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .socialicon a i{
+    font-size: 3em;
+    color: #1f1d1cc0;
+    opacity: 0.9;
+  }
+  
+
+  

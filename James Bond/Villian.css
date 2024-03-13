@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+.main-hero{
+    min-height: 100vh;
+    background: url(Images/best\ hero\ image.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.3rem 12%;
+    background: #090909;
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.089);
+}
+
+.logo{
+    font-size: 5rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+
+.navbar a{
+    font-size: 1.15rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2.5rem;
+  
+}
+
+.navbar .play{
+    
+    font-weight: bolder;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#check{
+    display: none;
+}
+
+.icons{
+    position: absolute;
+    right: 5%;
+    font-size: 2.8rem;
+    color: #000000;
+    cursor: pointer;
+    display: none;
+}
+
+.main-text{
+    padding-top: 320px;
+    float: right;
+    padding-right: 15%;
+    padding-left: 50%;
+}
+
+
+
+
+  .head-text{
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 5px 3px rgba(0, 0, 0, 0.562);
+  }
+
+
+  /*cars start here */
+
+
+
+.Header{
+    font-size: 95px;
+    text-align: center;
+}
+
+.descri{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.Villian{
+    margin-top: 20%;
+}
+
+
+  .who{
+    height: 57vh;
+    width: 100%;
+    margin-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 13%;
+
+}
+
+
+
+
+
+ 
+.james-head{
+    height: 100%;
+    width: auto;
+    margin-left: 100px;
+    float: left;
+ 
+    border-bottom-right-radius: 200px 200px;
+ 
+}
+
+.james-head2{
+    height: 100%;
+    width: auto;
+    margin-left: 100px;
+    float: left;
+    border-bottom-right-radius: 200px 200px;
+    float: right;
+ 
+}
+ 
+.who section{
+    padding-top: 50px;
+    
+}
+ 
+.who h2{
+    padding-top: 60px;
+    color: #0c0c0c;
+    font-size: 58px;
+    padding-bottom: 40px;
+}
+ 
+.who p{
+    color: #000000;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+
+  /* table ends here*/
+
+
+
+   /* footer*/
+
+   footer{
+    background-color: #31302e;
+    
+  }
+  
+  .footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    margin-top: 5%;
+  }
+  
+  .footernav{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5%;
+  
+  }
+  
+  .footernav a{
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+   
+  }
+  
+  
+  .footerbottom{
+    text-align: center;
+    background-color: #0000007b;
+    padding: 2%;
+    color: white;
+  }
+  
+  .socialicon{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .socialicon a i{
+    font-size: 3em;
+    color: #1f1d1cc0;
+    opacity: 0.9;
+  }
+  
+
+  
